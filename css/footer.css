@@ -1,7 +1,6 @@
 *{
   margin:0px;
   padding:0px;
-  box-sizing:border-box;
 }
 footer{
   font-family:"open Sans";
@@ -25,6 +24,7 @@ a img{
   margin:auto;
   background-color:#1A1A1A;
   padding:30px 20px;
+  box-sizing:border-box;
 }
 .footer-inner{
   width:1400px;
