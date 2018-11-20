@@ -109,7 +109,14 @@ a img{
   border-color:transparent;
   background-color:#0098FE;
   color: white;
-
+}
+.footer-box form input[type="submit"]:hover {
+  -webkit-transition: .5s all;
+  -moz-transition: .5s all;
+  -o-transition: .5s all;
+  -ms-transition: .5s all;
+  transition: .5s all;
+  background: #1975ff;
 }
 .footer-box form textarea{
   padding:9px;
