@@ -11,6 +11,11 @@ position: relative;
 margin-right: 0;
 float:right;
 }
+.image_dimensions
+{
+height: 440px;
+width:550px;
+}
 .circles
 {
 cursor: pointer;
