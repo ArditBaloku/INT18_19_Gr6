@@ -25,6 +25,10 @@ nav li a:hover {
   color: gray;
 }
 
+a {
+  text-decoration: none;
+}
+
 nav a::after {
   content: '';
   display: block;
