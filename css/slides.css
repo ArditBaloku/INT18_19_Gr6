@@ -1,10 +1,11 @@
-.lajmet {
+.show_news
+{
 position: absolute;
 margin-left:0;
 background: rgba(0, 0, 0, 0.199);
 width: 100%;
 }
-.slide_fotot
+.slide_photos
 {
 position: relative;
 margin-right: 0;
