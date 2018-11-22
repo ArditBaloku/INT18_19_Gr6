@@ -11,7 +11,7 @@ margin-right: 0;
 float:right;
 width: 50%;
 }
-.rrumullakat
+.circles
 {
 cursor: pointer;
 height: 15px;
@@ -22,7 +22,7 @@ border-radius: 50%;
 display: inline-block;
 transition: background-color 1s ease;
 }
-.rrumullakat:hover
+.circles:hover
 {
      background-color:rgba(245, 245, 245, 0.301);
 }
