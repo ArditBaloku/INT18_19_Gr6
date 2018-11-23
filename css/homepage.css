@@ -1,7 +1,10 @@
+*{
+  margin:0px;
+  padding:0px;
+}
 ul {
   list-style-type: none;
   margin: 0;
-  padding-left: 3%;
 }
 
 nav li {
@@ -123,11 +126,6 @@ header {
 .fa-rss:hover {
   background: #ff6600;
 }
-body{
-  font-family:"Arial";
-  width:100%;
-  box-sizing:border-box;
-}
 a{
   text-decoration: :none;
   outline:none;
@@ -209,13 +207,10 @@ a img{
   font-size: 105%;
 }
 
-*{
-  margin:0px;
-  padding:0px;
-}
 footer{
   font-family:"open Sans";
   width:100%;
+  box-sizing:border-box;
 }
 a{
   text-decoration: :none;
@@ -234,11 +229,13 @@ a img{
   background-color:#1A1A1A;
   padding:30px 20px;
   box-sizing:border-box;
+
 }
 .footer-inner{
   width:1400px;
   height:auto;
   margin:auto;
+
 }
 .footer-left{
   width:300px;
@@ -247,7 +244,6 @@ a img{
   margin-right:30px;
   margin-left:25px;
 }
-
 .footer-box{
   width:100%;
   height:auto;
@@ -284,11 +280,11 @@ a img{
   padding-bottom: 8px;
 }
 .footer-box a:hover{
-  font-family: "open Sans";
-  font-size:14px;
+
+  text-decoration: none;
   padding-top: 8px;
   padding-bottom: 8px;
-  color:#ffffff;
+  color: #ffffff;
 }
 
 .footer-box ul{
@@ -307,7 +303,7 @@ a img{
   font-family: "open Sans";
   font-size:17px;
   color:#ffffff;
-} 
+}
 .footer-box form{
   margin-right:20px;
 }
@@ -330,6 +326,9 @@ a img{
   border-color:transparent;
   background-color:#0098FE;
   color: white;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
 }
 .footer-box form input[type="submit"]:hover {
   -webkit-transition: .5s all;
@@ -342,8 +341,7 @@ a img{
 .footer-box form textarea{
   padding:9px;
   font-size:inherit;
-  font-family: "open Sans"
-  display:block;
+  font-family: "open Sans";
   width:100%;
   background-color:#232323;
   border: 2px ;
