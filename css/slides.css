@@ -5,6 +5,14 @@ margin-left:0;
 background: rgba(0, 0, 0, 0.199);
 width: 100%;
 }
+table
+{
+    width:100%;
+}
+.mySlides
+{
+    display: none;
+}
 .slide_photos
 {
 position: relative;
