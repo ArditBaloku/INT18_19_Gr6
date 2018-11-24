@@ -9,7 +9,9 @@ ul {
 }
 
 nav {
-  border-bottom: 20px solid black;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  border-bottom-width: 20px;
 }
 
 nav li {
@@ -28,14 +30,7 @@ nav a {
     text-transform: uppercase;
 }
 
-nav::after {
-  content: '';
-  display: block;
-  height: 5px;
-  width: 84%;
-  margin-left: 105px;
-  background-color: #BFD2CD;
-}
+
 nav li a:hover {
     color: #0040ff;
 }
