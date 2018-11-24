@@ -544,7 +544,8 @@ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 {
 font-family: "Noto+Serif";
 color:#404040;
-padding-left: 60px;
+margin-left:20px;
+padding-left: 65px;
 }
 .link_button span
 {
