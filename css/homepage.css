@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Serif);
 *{
   margin:0px;
   padding:0px;
@@ -126,22 +127,9 @@ header {
 .fa-rss:hover {
   background: #ff6600;
 }
-@import url(https://fonts.googleapis.com/css?family=Noto+Serif);
 *{
   margin:0px;
   padding:0px;
-}
-body{
-  font-family:"Arial";
-  width:100%;
-  box-sizing:border-box;
-}
-a{
-  text-decoration: :none;
-  outline:none;
-}
-a img{
-  border:none;
 }
 .clr{
   clear:both;
