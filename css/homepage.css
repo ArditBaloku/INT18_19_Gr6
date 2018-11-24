@@ -8,6 +8,10 @@ ul {
   margin: 0;
 }
 
+nav {
+  border-bottom: black solid 5px;
+}
+
 nav li {
     position: relative;
     display: inline-block;
