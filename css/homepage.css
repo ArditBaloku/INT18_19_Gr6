@@ -452,16 +452,17 @@ a img{
 {
 position: relative;
 margin-left:0;
-background: rgba(0, 0, 0, 0.199);
+background:#F1F1F1;
 width: 100%;
 }
 table
 {
-    width:100%;
+border-color: #E8E8E8;
+width:100%;
 }
 .mySlides
 {
-    display: none;
+display: none;
 }
 .slide_photos
 {
