@@ -294,6 +294,15 @@ a img{
   font-size: 105%;
 }
 
+#hgroup1 {
+  border-left: 10px solid #0299FC;
+  background-color: #E0E0E0;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
 footer{
   font-family:"open Sans";
   width:100%;
