@@ -213,7 +213,6 @@ background: #F1F1F1;
 }
 .flip-card-back {
   background-color:#0099ff;
-  color: white;
   transform: rotateY(180deg);
   z-index: 1;
 }
