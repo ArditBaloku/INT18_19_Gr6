@@ -221,6 +221,25 @@ p,h2
   font-family: "Noto+Serif";
   color:#404040;
 }
+*{
+  margin:0px;
+  padding:0px;
+}
+.clr{
+  clear:both;
+}
+footer{
+  font-family:"open Sans";
+  width:100%;
+  box-sizing:border-box;
+}
+a{
+  text-decoration: :none;
+  outline:none;
+}
+a img{
+  border:none;
+}
 .clr{
   clear:both;
 }
