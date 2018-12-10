@@ -151,7 +151,7 @@ a img{
 .profesional_title
 {
     color: grey;
-    font-size: 18px;
+    font-size: 20px;
 }
 .card button
 {
@@ -216,7 +216,7 @@ background: #F1F1F1;
   transform: rotateY(180deg);
   z-index: 1;
 }
-.card p,h2
+p,h2
 {
   font-family: "Noto+Serif";
   color:#404040;
