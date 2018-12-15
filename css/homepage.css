@@ -142,6 +142,29 @@ nav a:hover::after {
   margin:0px;
   padding:0px;
 }
+
+.animated {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 5px;
+  background: url('https://i.ibb.co/5L3fQVn/text-bg.png') no-repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: moveBg 90s linear infinite;
+  -webkit-animation: moveBg 90s linear infinite;
+}
+
+@keyframes moveBg {
+  0% {
+    background-position: 0% 30%;
+  }
+
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
 .clr{
   clear:both;
 }
