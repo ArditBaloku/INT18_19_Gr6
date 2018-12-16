@@ -332,8 +332,7 @@ transition: background-color 1s ease;
 font-size: 25px;
 color:black;
 padding: 10px;
-}
-.active, .page_number:hover
+}.page_number:hover
 {
 background-color:rgba(2, 0, 0, 0.301);
 color :white;
