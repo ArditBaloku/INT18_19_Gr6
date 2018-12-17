@@ -140,6 +140,59 @@ nav a:hover::after {
   clear:both;
 }
 
+.lists_page{
+  background-image:url('../images/lists_page_photo.jpg');
+}
+.lists_page a{
+  text-decoration:none;
+	color:#A9A9A9;
+}
+
+.lists_page li{
+
+	background-color:#F8F8F8;
+	margin:25px;
+	padding:30px;
+	padding-left:50px;
+	border-left:50px;
+	border-right:50px;
+	width:90%;
+	border-radius:50px;
+	box-shadow: 10px 10px #B8B8B8;
+	list-style:none;
+
+}
+
+.lists_page h1{
+  color:#f3f3f3;
+	font-family: "Verdana", Times, serif ;
+	  text-align: center;
+    -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+}
+.lists_page h1:hover{
+	color:#0299FC;
+}
+.lists_page div:hover{
+  transform: rotate(0.3Deg);
+}
+.lists_page_photo1 li{
+  background-image:url('../images/black_panther_poster.jpg');
+  width: 90%;
+}
+.lists_page_photo2 li{
+  background-image:url('../images/Incredibles2.jpg');
+}
+.lists_page_photo3 li{
+  background-image:url('../images/TheWife1.jpg');
+}
+.lists_page_photo4 li{
+  background-image:url('../images/infinitywar.jpg');
+}
+.lists_page_photo5 li{
+  background-image:url('../images/thegodfather.jpg');
+}
+
 footer{
   font-family:"open Sans";
   width:100%;
