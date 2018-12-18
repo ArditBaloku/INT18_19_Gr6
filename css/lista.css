@@ -141,7 +141,9 @@ nav a:hover::after {
 }
 
 .lists_page{
-  background-image:url('../images/lists_page_photo.jpg');
+   background:#F0F0F0;
+  text-decoration:none;
+  text-align: center;
 }
 .lists_page a{
   text-decoration:none;
@@ -174,7 +176,7 @@ nav a:hover::after {
 	color:#0299FC;
 }
 .lists_page div:hover{
-  transform: rotate(0.3Deg);
+  transform: scale(1.02);
 }
 .lists_page_photo1 li{
   background-image:url('https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/images/black_panther_poster.jpg');
