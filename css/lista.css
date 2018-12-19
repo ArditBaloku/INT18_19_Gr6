@@ -141,8 +141,6 @@ nav a:hover::after {
 }
 
 .lists_page{
-   background:#F0F0F0;
-  text-decoration:none;
   text-align: center;
 }
 .lists_page a{
@@ -152,15 +150,15 @@ nav a:hover::after {
 
 .lists_page li{
 
-	background-color:#F8F8F8;
 	margin:25px;
-	padding:30px;
+  padding-top:25px;
+  padding-bottom:25px;
 	padding-left:50px;
 	border-left:50px;
 	border-right:50px;
 	width:90%;
 	border-radius:50px;
-	box-shadow: 10px 10px #B8B8B8;
+	box-shadow: 10px 8px #B8B8B8;
 	list-style:none;
 
 }
@@ -194,7 +192,28 @@ nav a:hover::after {
 .lists_page_photo5 li{
   background-image:url('https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/images/thegodfather.jpg');
 }
+.lists_page_button a{
+text-decoration: none;
+ padding:13px;
+text-align: center;
+}
+.lists_page_button a:hover{
+  background-color:#200000 ;
+  color:#FFFFFF;
+}
+.lists_page_previous_button{
+	font-family: "Verdana", Times, serif ;
+  margin-right: 30px;
+  background-color:#383838;
+  border-radius:30px;
+}
 
+.lists_page_next_button{
+
+  font-family: "Verdana", Times, serif ;
+  background-color: #383838;
+  border-radius:30px;
+}
 footer{
   font-family:"open Sans";
   width:100%;
