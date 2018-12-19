@@ -151,18 +151,21 @@ nav a:hover::after {
 .lists_page li{
 
 	margin:25px;
-  padding-top:25px;
-  padding-bottom:25px;
-	padding-left:50px;
-	border-left:50px;
-	border-right:50px;
+  	padding-top:25px;
+  	padding-bottom:25px;
+	padding-left:100px;
 	width:90%;
 	border-radius:50px;
 	box-shadow: 10px 8px #B8B8B8;
 	list-style:none;
-
 }
-
+.lists_page div{
+    margin-left:50px;
+    margin-right:50px;
+}
+.lists_page div:hover{
+  transform: scale(1.02);
+}
 .lists_page h1{
   color:#f3f3f3;
 	font-family: "Verdana", Times, serif ;
@@ -172,9 +175,6 @@ nav a:hover::after {
 }
 .lists_page h1:hover{
 	color:#0299FC;
-}
-.lists_page div:hover{
-  transform: scale(1.02);
 }
 .lists_page_photo1 li{
   background-image:url('https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/images/black_panther_poster.jpg');
