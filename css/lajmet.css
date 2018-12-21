@@ -332,6 +332,7 @@ transition: 0.3s;
   color:#404040;
   margin-left:0px;
   padding-left:0px;
+  float:left;
 }
 .page_number
 {
