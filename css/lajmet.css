@@ -334,14 +334,13 @@ transition: 0.3s;
   padding-left:0px;
   float:left;
 }
-
-
-
 .pagination {
   list-style: none;
   display: inline-block;
   padding: 0;
   margin-top: 10px;
+  margin-left:44%;
+  margin-right:44%;
 }
 .pagination li {
   display: inline;
