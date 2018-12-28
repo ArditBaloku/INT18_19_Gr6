@@ -177,24 +177,38 @@ nav a:hover::after {
 }
 .body-left-left img{
 }
-.zoom-big{
-    transition: transform .3s;
-    width: 500px;
-    height: 400px;
-    margin: 0 auto;
-}
-.zoom-big:hover {
-    transform: scale(1.05);
-}
-.zoom{
-    transition: transform .3s;
-    width: 180px;
-    height: 180px;
-    margin: 0 auto;
-}
-.zoom:hover {
-    transform: scale(1.05);
-}
+      .largimifotos{
+        margin:80px;
+        margin-left:300px;
+      }
+      .shpresa{
+
+      }
+      .shpresa img{
+        postion:relative;
+      }
+      .shpresa td{
+        padding-left:10px;
+      }
+      .shpresa tr{
+        padding-bottom:10px;
+      }
+
+
+      .zoom-big{
+          transition: transform .3s;
+          margin: 0 auto;
+      }
+      .zoom-big:hover {
+          transform: scale(1.05);
+      }
+      .zoom{
+          transition: transform .3s;
+          margin: 0 auto;
+      }
+      .zoom:hover {
+          transform: scale(1.05);
+      }
 .body-box a{
   font-family: "Arial";
   font-size:15px;
