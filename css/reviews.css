@@ -369,7 +369,9 @@ a img{
 {
 display: none;
 }
-table
+.rev{
+}
+.rev table
 {
   border: none;
   width:95%;
