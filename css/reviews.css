@@ -186,12 +186,15 @@ nav a:hover::after {
       }
       .shpresa img{
         postion:relative;
+        cursor: pointer;
       }
       .shpresa td{
         padding-left:10px;
+        cursor: pointer;
       }
       .shpresa tr{
         padding-bottom:10px;
+        cursor: pointer;
       }
 
 
