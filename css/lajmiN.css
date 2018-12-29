@@ -140,6 +140,52 @@ nav a:hover::after {
 .clr{
   clear:both;
 }
+
+.title {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  color: #0299FC;
+}
+
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.left-text {
+  text-align: left;
+  font-size: 22px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.grey-background {
+  background-color: #F1F1F1;
+}
+
+.article-template {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.read-more {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.read-more-item {
+    background-color: #F1F1F1;
+    margin-bottom: 5px;
+}
+
+.read-more-item p {
+  float: right;
+  font-size: 30px;
+  color: black;
+}
+
 footer{
   font-family:"open Sans";
   width:100%;
