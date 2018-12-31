@@ -184,6 +184,9 @@ nav a:hover::after {
   float: right;
   font-size: 30px;
   color: black;
+  padding-top: 20px;
+  width: 800px;
+  word-wrap: break-word;
 }
 
 footer{
