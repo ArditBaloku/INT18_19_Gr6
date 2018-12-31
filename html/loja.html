@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="Loja2.css" rel="stylesheet">
+  <script src="Loja2.js" async></script>
+  <title>Mix-Or-Match</title>
+</head>
+<body>
+  <h1 class="page-title">Mix-Or-Match</h1>
+  <div class="overlay-text visible">
+    Click to Start
+  </div>
+  <div id="game-over-text" class="overlay-text">
+    GAME OVER
+    <span class="overlay-text-small">Click to Restart</span>
+  </div>
+  <div id="victory-text" class="overlay-text">
+    VICTORY
+    <span class="overlay-text-small">Click to Restart</span>
+  </div>
+
+  <div class="game-container">
+    <div class="game-info-container">
+      <div class="game-info">
+        Time <span id="time-remaining">100</span>
+      </div>
+      <div class="game-info">
+        Flips <span id="flips">0</span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="movie" src="Assets/Images/Movie.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="Assets/Images/Cinema Chair.png" width="85px" height="85px">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="movie" src="Assets/Images/Movie.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value"src="Assets/Images/Cinema Chair.png" width="85px" height="85px">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="movie" src="Assets/Images/Movie.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="Assets/Images/Movie Tape.png" width="85px" height="85px">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="movie" src="Assets/Images/Movie.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="Assets/Images/Movie Tape.png" width="85px" height="85px">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="movie" src="Assets/Images/Movie.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="Assets/Images/Cinema Ticket.png" width="85px" height="85px">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="movie" src="Assets/Images/Movie.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="Assets/Images/Cinema Ticket.png" width="90px" height="80px">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="movie" src="Assets/Images/Movie.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="Assets/Images/Oscar.png" width="50px" height="100px">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="movie" src="Assets/Images/Movie.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="Assets/Images/Oscar.png" width="50px" height="100px">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="movie" src="Assets/Images/Movie.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="Assets/Images/Camera Clip.png" width="75px" height="75px">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="movie" src="Assets/Images/Movie.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="Assets/Images/Camera Clip.png" width="75px" height="75px">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="movie" src="Assets/Images/Movie.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value"  src="Assets/Images/Camera.gif" width="60px" height="90px">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="movie" src="Assets/Images/Movie.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value"  src="Assets/Images/Camera.gif" width="60px" height="90px">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="movie" src="Assets/Images/Movie.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="Assets/Images/3D Glasses.png" width="90px" height="60px">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="movie" src="Assets/Images/Movie.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="Assets/Images/3D Glasses.png" width="90px" height="60px">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="movie" src="Assets/Images/Movie.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="Assets/Images/Popcorn.png" width="85px" height="85px">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="movie" src="Assets/Images/Movie.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="Assets/Images/Popcorn.png" width="85px" height="85px">
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
