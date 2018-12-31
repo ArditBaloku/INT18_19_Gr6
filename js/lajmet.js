@@ -1,4 +1,4 @@
-var pageIndex = 1;
+
 
 function plusPage(n)
 {
@@ -26,11 +26,10 @@ function showPage(n) {
     {
         page[i].style.display = "none";
     }
-
-    page[pageIndex-1].style.display = "block";
     for (i = 0; i < page_number.length; i++)
     {
       page_number[i].className = page_number[i].className.replace('active','');
     }
+    page[pageIndex-1].style.display = "block";
     page_number[pageIndex-1].className += " active";
   }
