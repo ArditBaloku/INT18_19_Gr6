@@ -165,6 +165,25 @@ nav a:hover::after {
   }
 }
 
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image1 {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.snowflake{
+  position: absolute;
+  top: 25px;
+  left: 75px;
+  transform: rotate(30deg);
+}
+
+
+
 .clr{
   clear:both;
 }
