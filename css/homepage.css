@@ -511,12 +511,23 @@ cursor: pointer;
 height: 15px;
 width: 15px;
 margin: 0 2px;
-background-color: rgba(0, 0, 0, 0.877);
+background-color: #0299FC;
 border-radius: 50%;
 display: inline-block;
 transition: background-color 1s ease;
 }
-.active, .circles:hover
+.circlesStatic
+{
+cursor: pointer;
+height: 15px;
+width: 15px;
+margin: 0 2px;
+background-color: #0299FC;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 1s ease;
+}
+.circles_active, .circles:hover
 {
 background-color:rgba(245, 245, 245, 0.301);
 }

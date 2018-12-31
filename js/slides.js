@@ -17,10 +17,10 @@ function showSlides(n) {
     }
     for (i = 0; i < circles.length; i++)
     {
-        circles[i].className = circles[i].className.replace(" active", "");
+        circles[i].className = circles[i].className.replace('circles_active','');
     }
     slides[slideIndex-1].style.display = "block";
-    circles[slideIndex-1].className += " active";
+    circles[slideIndex-1].className += " circles_active";
   }
   function plusSlides(n)
   {
