@@ -284,37 +284,44 @@ a img{
   font-size:13px;
 }
 
-.folder-listat ol{
+
+.folder-lista ol{
   /* display: list-item; */
   list-style-position: inside;
 
 }
-.folder-listat h1{
+.folder-lista h1{
   margin-top:10px;
   padding-top:10px;
   text-align: center;
 }
-.folder-listat h2{
+.folder-lista h2{
   text-align:center;
   color:blue;
   family-font: Times New Roman Georgia;
   padding-top: 5px;
   padding-bottom: 10px;
 }
-.folder-listat-photo{
+.folder-lista-photo{
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-.folder-listat-background{
+.folder-lista-background{
   background-color: #F1F1F1;
   width: 100%;
   font-style: normal;
 }
-.folder-listat p{
+.folder-lista p{
   text-align: center;
   padding-left: 100px;
   padding-right: 100px;
   font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
   margin:20px;
+
+.listat ol{
+  padding: 20px;
+  margin:20px;
+
+
 }
