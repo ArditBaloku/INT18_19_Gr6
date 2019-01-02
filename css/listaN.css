@@ -298,7 +298,7 @@ a img{
 }
 .folder-lista h2{
   text-align:center;
-  color:blue;
+  color:#0299FC;
   family-font: Times New Roman Georgia;
   padding-top: 5px;
   padding-bottom: 10px;
@@ -319,6 +319,7 @@ a img{
   padding-right: 100px;
   font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
   margin:20px;
+}
 
 .listat ol{
   padding: 20px;
