@@ -283,7 +283,12 @@ a img{
   color:#8D8D8D;
   font-size:13px;
 }
-
+.folder-lista td{
+  background-color: #F1F1F1;
+}
+.folder-lista td:hover{
+  color: #FF0000;
+}
 
 .folder-lista ol{
   /* display: list-item; */
@@ -320,10 +325,7 @@ a img{
   font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
   margin:20px;
 }
-
 .listat ol{
   padding: 20px;
   margin:20px;
-
-
 }
