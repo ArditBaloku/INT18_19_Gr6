@@ -4,9 +4,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lista</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/css/lista.css" type="text/css">
+  <link rel="stylesheet" href="C:\Users\hp\Documents\GitHub\INT18_19_Gr6\css\lista.css" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/js/jquery.goup.min.js"></script>
+  <script src="C:\Users\hp\Documents\GitHub\INT18_19_Gr6\js\lajmet.js"></script>
   <script>
     jQuery(document).ready(function(){
     jQuery.goup();
@@ -14,7 +15,7 @@
   </script>
 </head>
 <body>
-<header>
+<header id="header">
   <div class="header">
     <p style="margin-top: 15px; float: left"><a href="https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/html/signup.html" style="text-decoration:none; color:#8c8c8c;">Sign up</a> | <a href="https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/html/signin.html" style="text-decoration:none; color: #8c8c8c;">Login</a> | RSS Feeds | Archived News
     <div class="icons">
@@ -41,85 +42,96 @@
 </nav>
 </div>
 
-<div  class="lists_page">
-  <a href="listat/lista1.html" >
-<div class="lists_page_photo1">
-  <li><h1>Top 10 filmat me te mire te vitit 2018</h1></li>
+<div class="ThisPage">
+  <div  class="lists_page">
+    <a href="listat/lista1.html" >
+  <div class="lists_page_photo1">
+    <li><h1>Top 10 filmat me te mire te vitit 2018</h1></li>
+  </div>
+  </a>
+
+  <a href="listat/lista2.html" >
+  <div class="lists_page_photo2">
+    <li><h1>10 aktoret me te paguar te te gjitha koherave</h1>
+    </li>
+  </div>
+  </a>
+
+  <a href="listat/lista3.html" >
+  <div class="lists_page_photo3">
+    <li><h1>15 filmat më të bukur të të gjitha kohërave</h1>
+    </li>
+  </div>
+  </a>
+
+  <a href="listat/lista4.html" >
+  <div class="lists_page_photo4">
+    <li><h1>10 filmat me te shikuar ne vitin 2018</h1>
+    </li>
+  </div>
+  </a>
+
+  <a href="listat/lista5.html" >
+  <div class="lists_page_photo5">
+    <li><h1>15 filmat me te shtrenjte</h1>
+    </li>
+  </div>
+  </a>
+
+  <a href="listat/lista6.html" >
+  <div class="lists_page_photo6">
+    <li><h1>Top 10 filmat e 2018</h1>
+    </li>
+  </div>
+  </a>
 </div>
-</a>
-
-<a href="listat/lista2.html" >
-<div class="lists_page_photo2">
-  <li><h1>10 aktoret me te paguar te te gjitha koherave</h1>
-  </li>
 </div>
-</a>
 
-<a href="listat/lista3.html" >
-<div class="lists_page_photo3">
-  <li><h1>15 filmat më të bukur të të gjitha kohërave</h1>
-  </li>
+<div class="ThisPage">
+  <div class="lists_page">
+    <a href="listat/lista7.html" >
+    <div class="lists_page_photo7">
+      <li><h1>Top 10 filmat e 2018</h1>
+      </li>
+    </div>
+    </a>
+
+    <a href="listat/lista8.html" >
+    <div class="lists_page_photo8">
+      <li><h1>Top 10 filmat e 2018</h1>
+      </li>
+    </div>
+    </a>
+
+    <a href="listat/lista9.html" >
+    <div class="lists_page_photo9">
+      <li><h1>Top 10 filmat e 2018</h1>
+      </li>
+    </div>
+    </a>
+
+    <a href="listat/lista10.html" >
+    <div class="lists_page_photo10">
+      <li><h1>Top 10 filmat e 2018</h1>
+      </li>
+    </div>
+    </a>
+  </div>
 </div>
-</a>
 
-<a href="listat/lista4.html" >
-<div class="lists_page_photo4">
-  <li><h1>10 filmat me te shikuar ne vitin 2018</h1>
-  </li>
-</div>
-</a>
+</br></br>
+    <ul class="pagination modal-1">
+    <li><a href="#header" class="prev" onclick="plusPage(-1)">&laquo</a></li>
+    <li><a href="#header" onclick="currentPage(1)" class="page_number active">1</a></li>
+    <li> <a href="#header" onclick="currentPage(2)" class="page_number">2</a></li>
+    <li><a href="#header" class="next" onclick="plusPage(1)">&raquo;</a></li>
+  </ul>
+  <script>
+    var pageIndex = 1;
+    showPage(pageIndex);
+  </script>
+</br></br>
 
-<a href="listat/lista5.html" >
-<div class="lists_page_photo5">
-  <li><h1>15 filmat me te shtrenjte</h1>
-  </li>
-</div>
-</a>
-
-<a href="listat/lista6.html" >
-<div class="lists_page_photo6">
-  <li><h1>Top 10 filmat e 2018</h1>
-  </li>
-</div>
-</a>
-
-<a href="listat/lista7.html" >
-<div class="lists_page_photo7">
-  <li><h1>Top 10 filmat e 2018</h1>
-  </li>
-</div>
-</a>
-
-<a href="listat/lista8.html" >
-<div class="lists_page_photo8">
-  <li><h1>Top 10 filmat e 2018</h1>
-  </li>
-</div>
-</a>
-
-<a href="listat/lista9.html" >
-<div class="lists_page_photo9">
-  <li><h1>Top 10 filmat e 2018</h1>
-  </li>
-</div>
-</a>
-
-<a href="listat/lista10.html" >
-<div class="lists_page_photo10">
-  <li><h1>Top 10 filmat e 2018</h1>
-  </li>
-</div>
-</a>
-
-
-
-</div>
-  <span class="lists_page_button">
-  <center>
-<a href="#" class="lists_page_previous_button">&laquo; Faqja e meparshme</a>
-<a href="#" class="lists_page_next_button">Faqja vijuese &raquo;</a>
-   </center>
-</span>
 </body>
 <footer>
 <div class="footer-main">
