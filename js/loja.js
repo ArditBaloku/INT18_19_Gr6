@@ -1,10 +1,10 @@
 class AudioController {
     constructor() {
-        this.bgMusic = new Audio('Assets/Audio/creepy.mp3');
-        this.flipSound = new Audio('Assets/Audio/flip.wav');
-        this.matchSound = new Audio('Assets/Audio/match.wav');
-        this.victorySound = new Audio('Assets/Audio/victory.wav');
-        this.gameOverSound = new Audio(https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/Fail Horn.mp3);
+        this.bgMusic = new Audio("https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/audio/Game.mp3");
+        this.flipSound = new Audio("https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/audio/Card Flip.mp3");
+        this.matchSound = new Audio("https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/audio/Matching.mp3");
+        this.victorySound = new Audio("https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/audio/Victory.mp3");
+        this.gameOverSound = new Audio("https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/audio/Fail Horn.mp3");
         this.bgMusic.volume = 0.5;
         this.bgMusic.loop = true;
     }
