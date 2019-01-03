@@ -293,7 +293,9 @@ a img{
 .folder-lista ol{
   /* display: list-item; */
   list-style-position: inside;
-
+}
+.folder-lista li{
+  text-align: center;
 }
 .folder-lista h1{
   margin-top:10px;
