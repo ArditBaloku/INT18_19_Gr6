@@ -1,13 +1,13 @@
 @font-face {
     font-family: "Creepy";
-    src: url("https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/Creepy.woff") format("woff"),
-         url("https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/Creepy.woff2") format("woff2");
+    src: url(https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/fonts/Creepy.woff) format("woff"),
+         url(https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/fonts/Creepy.woff2) format("woff2");
 }
 
 @font-face {
     font-family: "Lunacy";
-    src: url("https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/Lunacy.woff") format("woff"),
-         url("https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/Lunacy.woff2") format("woff2");
+    src: url(https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/fonts/Lunacy.woff) format("woff"),
+         url(https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/fonts/Lunacy.woff2) format("woff2");
 }
 
 * {
