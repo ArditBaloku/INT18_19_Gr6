@@ -4,7 +4,7 @@ class AudioController {
         this.flipSound = new Audio('Assets/Audio/flip.wav');
         this.matchSound = new Audio('Assets/Audio/match.wav');
         this.victorySound = new Audio('Assets/Audio/victory.wav');
-        this.gameOverSound = new Audio('Assets/Audio/gameOver.wav');
+        this.gameOverSound = new Audio(https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/Fail Horn.mp3);
         this.bgMusic.volume = 0.5;
         this.bgMusic.loop = true;
     }
