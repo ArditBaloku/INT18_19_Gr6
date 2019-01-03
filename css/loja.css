@@ -16,7 +16,7 @@
 
 html {
   min-height: 100vh;
-  cursor: url(https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/captain-america-arrow.cur), auto;
+  cursor: url(https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/cursor/captain-america-arrow.cur), auto;
   font-family: Lunacy;
 }
 
@@ -55,7 +55,7 @@ body {
 
 .card {
   position: relative;
-  cursor: url(https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/captain-america-arrow.cur), auto;
+  cursor: url(https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/cursor/captain-america-arrow.cur), auto;
   height: 175px;
   width: 125px;
 }
