@@ -139,7 +139,20 @@ function keyPush(evt) {
     }
 }
 </script>﻿
-
+<p id="paragraph">Diferenca ne mes te match() dhe exec(). (DIFERENCA, dif)</p>
+<p id="res1"></p>
+<p id="res2"></p>
+<button onclick="difference()">Shih diferencen</button>
+<script>
+  function difference() {
+    var str = "Diferenca ne mes te match() dhe exec(). (DIFERENCA, dif)";
+    var patt = /dif/gi;
+    var match = str.match(patt);
+    var exec = patt.exec(str);
+    document.getElementById("res1").innerHTML = "Match: " + match;
+    document.getElementById("res2").innerHTML = "Exec: " + exec;
+  }
+</script>
 </body>
 <footer>
 <div class="footer-main">
