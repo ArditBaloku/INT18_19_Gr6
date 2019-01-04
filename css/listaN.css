@@ -341,3 +341,6 @@ a img{
     padding: 3px;
     text-align: center;
 }
+.folder-lista-bullet-points {
+  list-style-type: circle;
+}
