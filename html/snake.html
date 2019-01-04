@@ -57,7 +57,14 @@ ax=ay=15;
 xv=yv=0;
 trail=[];
 tail = 5;
-var points = 0;
+tail = tail.toString(tail);
+tail = Number(tail);
+Number.isInteger(tail);
+const ten = 10;
+const twenty = 20;
+const thirty = 30;
+const fourty = 40;
+var points = Math.pow(Math.exp(0),2) - 1;
 function game() {
     px+=xv;
     py+=yv;
@@ -73,7 +80,10 @@ function game() {
     if(py>tc-1) {
         py= 0;
     }
-    ctx.fillStyle="#444444";
+    var grd = ctx.createRadialGradient(300, 300, 350, 300, 300, 500);
+    grd.addColorStop(0, "#444444");
+    grd.addColorStop(1, "white");
+    ctx.fillStyle= grd;
     ctx.fillRect(0,0,canv.width,canv.height);
 
     ctx.fillStyle="#028FEC";
@@ -99,10 +109,16 @@ function game() {
     ctx.font = "30px Arial";
     ctx.fillText(points, 10, 50);
     if(points==10) {
-      ctx.fillText("Urime, fituat 10 pike", 150, 50);
+      ctx.fillText("Urime, fituat" + ten + " pike", 150, 50);
     }
-    else if(points>10 && points%10==0) {
-      ctx.fillText("Urime, keni fituar edhe 10 pike tjera", 100, 50);
+    else if(points==20) {
+      ctx.fillText("Urime, keni fituar " + twenty + " pike", 100, 50);
+    } else if(points==30) {
+      ctx.fillText("Urime, keni fituar " + thirty + " pike", 100, 50);
+    } else if (points==40) {
+      ctx.fillText("Urime, keni fituar " + fourty + " pike", 100, 50);
+    } else if (points > 40) {
+      ctx.fillText("Wow, keni shume pike", 100, 50);
     }
 }
 
