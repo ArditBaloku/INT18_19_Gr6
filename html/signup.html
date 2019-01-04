@@ -20,8 +20,9 @@
 			 		<input type="radio" name="gender" id="female" value="female">
 					<p>Birthday</p>
 					<div class="birthday-list">
-					<select name="month">
-					<option value="month">Month</option>
+					<input list="months" name="months" placeholder="Month">
+  					<datalist id="months"><input list="months" name="months" placeholder="Month">
+  					<datalist id="months">
 					<option value="Jan">Jan</option>
 					<option value="Feb">Feb</option>
 					<option value="Mar">Mar</option>
@@ -33,6 +34,7 @@
 					<option value="Oct">Oct</option>
 					<option value="Nov">Nov</option>
 					<option value="Dec">Dec</option>
+				        </datalist>
 					</select>
 					<select name="day">
 					<option value="day">Day</option>
