@@ -30,9 +30,10 @@ function showPage(n)
     page[pageIndex-1].style.display = "block";
     page_number[pageIndex-1].className += " active";
 }
-var day_night = new Date().getHours();
+
 function back()
 {
+  var day_night = new Date().getHours();
   if (day_night>0 && day_night<8)
   {
     document.write("Pse jeni zgjuar ne kete ore?! Mos ndoshta vuani nga pagjumesia? Shiko nje film dhe fli rehat.");
