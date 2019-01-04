@@ -44,6 +44,7 @@
 </header>
 
 <canvas id="gc" width="600" height="600" style="margin-left: 450px;"></canvas>
+<p id="demo"></p>
 <script>
 window.onload=function () {
     canv=document.getElementById("gc");
@@ -138,6 +139,19 @@ function keyPush(evt) {
             break;
     }
 }
+var x = document.getElementById("demo");
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else {
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+function showPosition(position) {
+  x.innerHTML = "Kordinatat tuaja gjeografike te vendodhjes jane, latituda-" + position.coords.latitude +
+  " dhe longituda-" + position.coords.longitude+". Keto te dhena tuaja personale totalisht anonime shfrytezohen vetem per statistika te brendshme te faqes.";
+}
+getLocation();
 </script>﻿
 <p id="paragraph">Diferenca ne mes te match() dhe exec(). (DIFERENCA, dif)</p>
 <p id="res1"></p>
