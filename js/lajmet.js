@@ -1,16 +1,13 @@
-
-
 function plusPage(n)
 {
   showPage(pageIndex += n);
-
 }
 function currentPage(n)
 {
   showPage(pageIndex=n);
 }
-
-function showPage(n) {
+function showPage(n)
+{
     var i;
     var page = document.getElementsByClassName("ThisPage");
     var page_number = document.getElementsByClassName("page_number");
@@ -32,4 +29,37 @@ function showPage(n) {
     }
     page[pageIndex-1].style.display = "block";
     page_number[pageIndex-1].className += " active";
+}
+var day_night = new Date().getHours();
+function back()
+{
+  if (day_night>0 && day_night<8)
+  {
+    document.write("Pse jeni zgjuar ne kete ore?! Mos ndoshta vuani nga pagjumesia? Shiko nje film dhe fli rehat.");
+    document.getElementById("myad").style.background = " url('https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/images/b2.png'), url('https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/images/b1.png')";
+    document.getElementById("myad").style.color = "white";
   }
+  if(day_night>8 && day_night<12)
+  {
+    document.write("Nisni diten me lajmet me te reja te kinematografise qe vijne posaqerisht per ju.");
+    document.getElementById("myad").style.background = " url('https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/images/b3.png'), url('https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/images/b4.jpg')";
+    document.getElementById("myad").style.color = "black";
+  }
+  if(day_night>12 && day_night<18)
+  {
+    document.write("Te lodhur nga punet e dite? Take a break and leave the ache. Lajmet e fundit per ju.");
+    document.getElementById("myad").style.background = " url('https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/images/b3.png'), url('https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/images/b4.jpg')";
+    document.getElementById("myad").style.color = "black";
+  }
+  if(day_night>18 && day_night<24)
+  {
+    document.write("Po eksploron faqen tone? Sonte gjume s'do kete per ty.");
+    document.getElementById("myad").style.background = " url('https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/images/b2.png'), url('https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/images/b1.png')";
+    document.getElementById("myad").style.color = "white";
+  }
+  document.getElementById("myad").style.backgroundOrigin = "padding-box, border-box";
+  document.getElementById("myad").style.backgroundPosition = "top right, top right";
+  document.getElementById("myad").style.backgroundAttachment = "local, local";
+  document.getElementById("myad").style.backgroundRepeat = "no-repeat, repeat-x";
+  document.getElementById("myad").style.backgroundSize = "150px 150px, 300px 200px";
+}
