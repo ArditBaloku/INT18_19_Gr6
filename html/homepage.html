@@ -299,6 +299,29 @@
     <h1>Go East, go west, our homepage is the best!</h1>
     <h3>Why not try our services today, you won't regret your choice!</h3>
   </hgroup>
+
+  <div id="counter" style="text-align: center;"></div>
+
+<script>
+var visits = localStorage.getItem('on_load_counter');
+var sessionVisits = sessionStorage.getItem('session_counter');
+
+if (visits === null) {
+    visits = 0;
+}
+if (sessionVisits === null) {
+  sessionVisits = 0;
+}
+
+sessionVisits++;
+visits++;
+
+localStorage.setItem("on_load_counter", visits);
+sessionStorage.setItem("session_counter", sessionVisits)
+
+document.getElementById('counter').innerHTML = "Ju keni vizituar faqen tone " + visits + " here (" + sessionVisits + " here ne kete sesion). Ju falenderojme perzemersisht!";
+</script>
+
 </body>
 <footer>
 <div class="footer-main">
