@@ -334,3 +334,10 @@ a img{
 .lista-e-filmave div{
   text-align: center;
 }
+.folder-lista figcaption{
+  background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
