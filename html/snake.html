@@ -44,7 +44,6 @@
 </header>
 
 <canvas id="gc" width="600" height="600" style="margin-left: 450px;"></canvas>
-<p id="demo"></p>
 <script>
 window.onload=function () {
     canv=document.getElementById("gc");
@@ -139,6 +138,24 @@ function keyPush(evt) {
             break;
     }
 }
+</script>﻿
+<p id="paragraph">Diferenca ne mes te match() dhe exec(). (DIFERENCA, dif)</p>
+<p id="res1"></p>
+<p id="res2"></p>
+<button onclick="difference()">Shih diferencen</button>
+
+<script>
+  function difference() {
+    var str = "Diferenca ne mes te match() dhe exec(). (DIFERENCA, dif)";
+    var patt = /dif/gi;
+    var match = str.match(patt);
+    var exec = patt.exec(str);
+    document.getElementById("res1").innerHTML = "Match: " + match;
+    document.getElementById("res2").innerHTML = "Exec: " + exec;
+  }
+</script>
+<p id="demo"></p>
+<script>
 var x = document.getElementById("demo");
 function getLocation() {
   if (navigator.geolocation) {
@@ -152,20 +169,6 @@ function showPosition(position) {
   " dhe longituda-" + position.coords.longitude+". Keto te dhena tuaja personale totalisht anonime shfrytezohen vetem per statistika te brendshme te faqes.";
 }
 getLocation();
-</script>﻿
-<p id="paragraph">Diferenca ne mes te match() dhe exec(). (DIFERENCA, dif)</p>
-<p id="res1"></p>
-<p id="res2"></p>
-<button onclick="difference()">Shih diferencen</button>
-<script>
-  function difference() {
-    var str = "Diferenca ne mes te match() dhe exec(). (DIFERENCA, dif)";
-    var patt = /dif/gi;
-    var match = str.match(patt);
-    var exec = patt.exec(str);
-    document.getElementById("res1").innerHTML = "Match: " + match;
-    document.getElementById("res2").innerHTML = "Exec: " + exec;
-  }
 </script>
 </body>
 <footer>
