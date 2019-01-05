@@ -1,8 +1,11 @@
 html {
   scroll-behavior: smooth;
 }
+.koka{
+  
+}
 
-ul {
+.koka ul {
   list-style-type: none;
   padding-left: 85px;
 }
