@@ -19,6 +19,41 @@
 
    }
   </style>
+    <script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("h1, h2, p").toggleClass("blue");
+  });
+});
+</script>
+<style>
+.blue {
+  color: #028FEC;
+}
+  .body button{
+       font-family: "Roboto", sans-serif;
+       text-transform: uppercase;
+       outline: 0;
+       background: #0099ff;
+       border: 0;
+       padding: 15px;
+       color: #FFFFFF;
+       font-size: 14px;
+       -webkit-transition: all 0.3 ease;
+       transition: all 0.3 ease;
+       cursor: pointer;
+       border-radius: 40px;
+       box-shadow: 0 9px #999;
+     }
+   .body  button:hover,.body button:focus {
+       background: #088DE6;
+     }
+   .body  button:active,{
+       background: #088DE6;
+       box-shadow: 0 5px #666;
+       transform: translateY(4px);
+     }
+</style>
   <script>
     jQuery(document).ready(function(){
     jQuery.goup();
@@ -73,6 +108,11 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EKGATzNnr8c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="display: block; margin-left:auto; margin-right:auto; margin-bottom: 20px;"></iframe>
   </section>
 </article>
+  <div class="body">
+<button style="margin-left: 580px;">Bëje tekstin e kaltërt/Kthe përsëri si ishte</button>
+</div>
+<br>
+<br>
 <address style="float: right;">
   Shkruar nga <a href="mailto:anzotika-bilalli@hotmail.com">Anzotika Bilalli</a>
 </address>
