@@ -13,6 +13,13 @@
     jQuery.goup();
     });
   </script>
+  <script>
+$(document).ready(function(){
+  $("#div1").click(function(){
+    $("#div2").slideDown("slow");
+  });
+});
+</script>
     <style>
     th, td {
     padding: 10px;
@@ -26,6 +33,19 @@
       margin-bottom: 10px;
       border-style: dashed;
     }
+          }
+    #div1 {
+      background-color: #F1F1F1;
+      width: 70%;
+      margin-left: 228px;
+      font-style: normal;
+      text-align: center;
+}
+
+#div2 {
+  text-align: center;
+  display: none;
+}
   </style>
 </head>
 <body>
@@ -61,12 +81,13 @@
   <p><b>Vetëm prodhimet me një buxhet neto që tejkalon një vlerë nominale prej 200
     milion dollarë në dollarë amerikanë janë listuar këtu. Për shkak të efekteve të inflacionit,
      të gjithë nga filmat në tabelë janë prodhuar në shekullin e 21-të.</b></p>
-  <table width="70%" border="1" cellspacing="0" class="center-table">
+  <div id="div1">Klikoni ketu per te pare listen</div>
+  <table id ="div2" width="70%" border="1" cellspacing="0" class="center-table">
     <tr style="background: #F0F0F0; color: #0299FC">
       <td> Rangimi </td>
       <td> Filmi </td>
       <td> Viti </td>
-      <td> Paga </td>
+      <td> Buxheti </td>
     </tr>
     <tr>
       <td> 1 </td>
@@ -161,7 +182,10 @@
   </table>
 </div>
 </div>
-
+<br>
+<br>
+<br>
+<br>
 </body>
 <footer>
 <div class="footer-main">
