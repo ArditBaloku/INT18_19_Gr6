@@ -13,6 +13,23 @@
     jQuery.goup();
     });
   </script>
+  <style>
+    .say
+    {
+      text-decoration:none;
+      font-family: "Noto+Serif";
+      font-size: 20px;
+      color:#404040;
+      background-color: #F1F1F1;
+      width:auto;
+      margin-top:20px;
+      margin-left: 0%;
+      padding-left:10%;
+      padding-top:2%;
+      padding-bottom:2%;
+      padding-right:10%;
+    }
+  </style>
 </head>
 <body>
 <header id="header">
@@ -139,11 +156,12 @@ function keyPush(evt) {
     }
 }
 </script>﻿
+<div class="geo_text">
 <p id="paragraph">Diferenca ne mes te match() dhe exec(). (DIFERENCA, dif)</p>
 <p id="res1"></p>
 <p id="res2"></p>
 <button onclick="difference()">Shih diferencen</button>
-
+</div>
 <script>
   function difference() {
     var str = "Diferenca ne mes te match() dhe exec(). (DIFERENCA, dif)";
@@ -154,7 +172,7 @@ function keyPush(evt) {
     document.getElementById("res2").innerHTML = "Exec: " + exec;
   }
 </script>
-<p id="demo"></p>
+<p id="demo" class="geo_text"></p>
 <script>
 var x = document.getElementById("demo");
 function getLocation() {
