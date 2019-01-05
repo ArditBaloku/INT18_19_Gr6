@@ -329,6 +329,9 @@ a img{
   font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
   margin:20px;
 }
+.folder-lista-dd{
+  text-align: center;
+}
 .listat ol{
   padding: 20px;
   margin:20px;
