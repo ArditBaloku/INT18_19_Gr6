@@ -322,12 +322,15 @@ a img{
   width: 100%;
   font-style: normal;
 }
-.dd .folder-lista p{
+.folder-lista p{
   text-align: center;
   padding-left: 100px;
   padding-right: 100px;
   font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
   margin:20px;
+}
+.folder-lista-dd{
+  text-align: center;
 }
 .listat ol{
   padding: 20px;
