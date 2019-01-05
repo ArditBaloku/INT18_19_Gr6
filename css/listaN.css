@@ -337,7 +337,7 @@ a img{
   border: 5px solid white;
   outline-style: dotted;
 }
-.lista-e-filmave div{
+.lista-e-filmave a{
   text-align: center;
   display: inline-blocks;
 }
