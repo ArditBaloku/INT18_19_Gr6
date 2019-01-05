@@ -331,10 +331,15 @@ a img{
   padding: 20px;
   margin:20px;
 }
+.listat-page-aa h1{
+  border: 5px solid white;
+  outline-style: dotted;
+}
 .lista-e-filmave div{
   text-align: center;
 }
 .folder-lista figcaption{
+  background-color: none;
     color: #fff;
     font: italic smaller sans-serif;
     padding: 2px;
