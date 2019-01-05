@@ -454,7 +454,8 @@ a img{
 {
   font-family: "Noto+Serif";
   color:#404040;
-  margin-top:50px;
+  margin-top:5px;
+  margin-bottom:5px;
   padding-left:5px;
   float:left;
 }
