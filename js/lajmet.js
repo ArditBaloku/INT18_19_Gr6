@@ -37,25 +37,25 @@ function back()
   if (day_night>=0 && day_night<8)
   {
     document.write("Pse jeni zgjuar ne kete ore?! Mos ndoshta vuani nga pagjumesia? Shiko nje film dhe fli rehat.");
-    document.getElementById("myad").style.background = " url('https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/images/b2.png'), url('https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/images/b1.png')";
+    document.getElementById("myad").style.background = " url('../images/b2.png'), url('../images/b1.png')";
     document.getElementById("myad").style.color = "white";
   }
   else if(day_night>=8 && day_night<12)
   {
     document.write("Nisni diten me lajmet me te reja te kinematografise qe vijne posaqerisht per ju.");
-    document.getElementById("myad").style.background = " url('https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/images/b3.png'), url('https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/images/b4.jpg')";
+    document.getElementById("myad").style.background = " url('../images/b3.png'), url('../images/b4.jpg')";
     document.getElementById("myad").style.color = "black";
   }
   else if(day_night>=12 && day_night<18)
   {
     document.write("Te lodhur nga punet e dite? Take a break and leave the ache. Lajmet e fundit per ju.");
-    document.getElementById("myad").style.background = " url('https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/images/b3.png'), url('https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/images/b4.jpg')";
+    document.getElementById("myad").style.background = " url('../images/b3.png'), url('../images/b4.jpg')";
     document.getElementById("myad").style.color = "black";
   }
   else if(day_night>=18 && day_night<=23)
   {
     document.write("Po eksploron faqen tone? Sonte gjume s'do kete per ty.");
-    document.getElementById("myad").style.background = " url('https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/images/b2.png'), url('https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/images/b1.png')";
+    document.getElementById("myad").style.background = " url('../images/b2.png'), url('../images/b1.png')";
     document.getElementById("myad").style.color = "white";
   }
   document.getElementById("myad").style.backgroundOrigin = "padding-box, border-box";
