@@ -339,8 +339,8 @@ a img{
   text-align: center;
 }
 .folder-lista figcaption{
-  background-color: #EEE9E8;
-    color: #fff;
+  background-color: #fff;
+    color: #000000;
     font: italic smaller sans-serif;
     padding: 4px;
     text-align: center;
