@@ -10,7 +10,6 @@
   <script src="../../js/validator.js"></script>
     <style>
       .latestb h4{ color:white;
-
    }
 .latestb   h4 a:hover{
      font-family: "open Sans";
@@ -20,6 +19,27 @@
    }
     .grey-background {
       background-color: #F1F1F1;
+    }
+    .link_button
+    {
+    background-color: #0099ff;
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    -webkit-transition-duration: 0.7s;
+    transition-duration: 0.7s;
+    }
+    .link_button:hover
+    {
+    background-color:white;
+    color: #0099ff;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
     }
   </style>
   <script>
@@ -71,20 +91,20 @@
     <p class="left-text">NobodysFool do të jetë këtu përderisa të ekzistojnë filmat dhe ju të qëndroni me ne prandaj shpresojmë që 2019 të jetë vit
     edhe më i suksesshëm së bashku me ju!</p>
     <div>
-      <button onclick="changeVideo()" type="button" class="center-image">Ndërro videon</button><br>
+      <button onclick="changeVideo()" type="button" class="link_button">Ndërro videon</button><br>
 
       <video id="happyHolidays" controls autoplay>
-        <source id="vid1" src="../../video/Video1.mp4" type="video/mp4">
+        <source id="vid1" src="https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/video/Video1.mp4" type="video/mp4">
         Shfletuesi juaj nuk mbështet HTML5 videot.
       </video>
 
       <script>
       function changeVideo() {
-        if (document.getElementById('vid1').src == "../../video/Video1.mp4") {
-          document.getElementById("vid1").src = "../../video/Video2.mp4";
+        if (document.getElementById('vid1').src == "https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/video/Video1.mp4") {
+          document.getElementById('vid1').src = "https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/video/Video2.mp4";
         }
         else {
-          document.getElementById('vid1').src = "../../video/Video1.mp4";
+          document.getElementById('vid1').src = "https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/video/Video1.mp4";
         }
         document.getElementById("happyHolidays").load();
       }
