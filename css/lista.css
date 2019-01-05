@@ -435,3 +435,18 @@ a img{
   background: #4285F4;
   color: #fff;
 }
+#div1, #div2 {
+  float: left;
+  width: 100px;
+  height: 80px;
+  margin: 0px;
+  padding: 0px;
+  border-bottom: 3px solid #4285F4;
+}
+#base_div
+{
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
