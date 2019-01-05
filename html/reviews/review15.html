@@ -8,11 +8,76 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/js/jquery.goup.min.js"></script>
   <script src="https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/js/validator.js"></script>
+    <style>
+.last button{
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #0099ff;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.last button:hover,.last button:active, .last button:focus{
+  background: #088DE6;
+}
+.body button{
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #0099ff;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    border-radius: 40px;
+    box-shadow: 0 9px #999;
+  }
+.body  button:hover,.body button:focus {
+    background: #088DE6;
+  }
+.body  button:active,{
+    background: #088DE6;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  .outline {
+  margin: 10px;
+  outline: 5px dashed #CFCFCF  ;
+  outline-offset: 10px;
+}
+  </style>
   <script>
     jQuery(document).ready(function(){
     jQuery.goup();
     });
   </script>
+    <script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#div1").fadeToggle(1000);
+  });
+});
+</script>
+<script>
+$(document).ready(function(){
+  $("#hide").click(function(){
+    $("iframe").hide("slow", function(){
+    alert("Sapo fshehet trailerin. Shtypni butonin Shfaq per ta rikthyer ate");
+  });
+  });
+  $("#show").click(function(){
+    $("iframe").show(1000);
+  });
+});
+</script>
 </head>
 <body>
 <header id="header">
@@ -43,6 +108,7 @@
 </div>
 </header>
 <article>
+  <div class="body">
   <div class="title">
     <h1 style="margin-top:20px; margin-bottom:20px;">Love, Simon (2018) - Review</h1>
     </div>
@@ -51,6 +117,8 @@
   </div>
 
   <section class="article-template">
+    <div class="outline">
+      
     <p class="left-text"><strong>Kohëzgjatja: 1h 50min</strong></p>
     <p class="left-text"><strong>Kategoria: Komedi, Dramë, Romancë</strong></p>
     <p class="left-text"><strong>Data e publikimit: 16 March 2018 (USA)</strong></p>
@@ -58,6 +126,8 @@
     <p class="left-text"><strong>Regjisor: Greg Berlanti</strong></p>
     <p class="left-text"><strong>Në rolet kryesore: Nick Robinson, Jennifer Garner, Josh Duhamel</strong></p>
     <hr>
+    <br>
+        </div>
     <br>
     </section>
 
@@ -67,6 +137,8 @@
                 frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen style="display: block; margin-left:auto; margin-right:auto; margin-bottom: 20px;">
         </iframe>
+    <button style="margin-left: 680px;" id="hide">Fshih</button>
+        <button id="show">Shfaq</button>
       <section class="article-template">
     <p style="margin-top:40px;"class="left-text">Filmat e ‘rritjes’ (coming-of age), varësisht prej gjeneratave
                                                  që kanë prekur, kthehen në kulte. Disa nga të fundit që mund të
@@ -99,6 +171,7 @@
 
   </section>
 </article>
+  </div>
 <address style="float: right; margin-right:150px;" >
   Shkruar nga &nbsp;<a href="mailto:eduard-spahija@hotmail.com">Eduard Spahija</a>
 </address>
@@ -106,30 +179,37 @@
   <hr style="margin-top:80px;">
   <h2 style="color: #0299FC; margin-bottom:20px; margin-top:20px;">Lexo të tjera</h2>
 
-  <a href="https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/html/lajmet/lajmi1.html">
+  <div class="last">
+ <button>Shfaq/Fshih lajmet tjera</button>
+ <br>
+ </div>
+ <div id="div1">
+   <br>
+  <a href="https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/html/reviews/review9.html">
   <div class="read-more-item">
-    <img class="pic_box" src="https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/images/A star is born.jpg" width="300" height="150" />
-    <p>A Star is Born (2018) - Review</p>
+    <img class="pic_box" src="https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/images/Gone with the wind.jpg" width="300" height="150" />
+    <p>Gone with the Wind (1939) - Review</p>
   </div>
   </a>
 
-  <a href="https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/html/lajmet/lajmi3.html">
+  <a href="https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/html/reviews/review11.html">
   <div class="read-more-item">
-    <img class="pic_box" src="https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/images/Coco.jpg" width="300" height="150" />
-    <p>Coco (2017) - Review</p>
+    <img class="pic_box" src="https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/images/interstellar.jpg" width="300" height="150" />
+    <p>Interstellar (2014) - Review</p>
   </div>
   </a>
 
-  <a href="https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/html/lajmet/lajmi4.html">
+  <a href="https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/html/reviews/review13.html">
   <div style="color: #0299FC; margin-bottom:30px;" class="read-more-item">
-    <img class="pic_box"src="https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/images/Disaster Artist.jpg" width="300" height="150" />
-    <p>The Disaster Artist (2017) - Review</p>
+    <img class="pic_box"src="https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/images/Baby Driver.jpg" width="300" height="150" />
+    <p>Baby Driver (2017) - Review</p>
   </div>
   </a>
 
 </div>
-
+</div>
 </body>
+<br>
 <footer>
 <div class="footer-main">
 <div class="footer-inner">
