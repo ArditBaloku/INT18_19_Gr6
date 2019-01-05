@@ -3,11 +3,22 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rreth nesh</title>
-  <link rel="stylesheet" href="https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/css/aboutus.css" type="text/css">
+  <link rel="stylesheet" href="../css/aboutus.css" type="text/css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/js/jquery.goup.min.js"></script>
-  <script src="https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/js/validator.js"></script>
+  <script src="../js/jquery.goup.min.js"></script>
+  <script src="../js/validator.js"></script>
+   <style>
+.latestb h4{ color:white;
+
+   }
+.latestb   h4 a:hover{
+     font-family: "open Sans";
+     font-size:17px;
+     color:#ffffff;
+
+   }
+   </style>
   <script>
     jQuery(document).ready(function(){
     jQuery.goup();
@@ -17,7 +28,7 @@
 <body>
 <header>
   <div class="header">
-    <p style="margin-top: 15px; float: left"><a href="https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/html/signup.html" style="text-decoration:none; color:#8c8c8c;">Sign up</a> | <a href="https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/html/signin.html" style="text-decoration:none; color: #8c8c8c;">Login</a> | RSS Feeds | Archived News
+    <p style="margin-top: 15px; float: left"><a href="signup.html" style="text-decoration:none; color:#8c8c8c;">Sign up</a> | <a href="signin.html" style="text-decoration:none; color: #8c8c8c;">Login</a> | RSS Feeds | Archived News
     <div class="icons">
       <a href="https://www.linkedin.com/" target="_blank" class="fa fa-linkedin"></a>
       <a href="https://twitter.com/" target="_blank" class="fa fa-twitter"></a>
@@ -160,8 +171,12 @@
 <div class="footer-left">
 <div class="footer-box">
 
-<h6>About Us</h6>
-<img src="https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/images/1-2.png" width="215px" height="90px" />
+<h6>Rreth Nesh</h6>
+<img src="../images/N.png" width="150px" height="50px"/>
+<svg height="10" width="500">
+<line x1="10" y1="0" x2="139" y2="0" style="stroke:#028FEC;stroke-width:6" />
+</svg>
+<img style="margin-top:5px;" src="../images/F.png" width="150px" height="50px"/>
 <p>
 Faqja e pare shqiptare me informata rreth
 filmave dhe serialeve me te shiquara.
@@ -172,7 +187,7 @@ Cdo gje e filluam prej zeros per te arritur ketu ku jemi.</p>
 </div>
 <div class="footer-left">
 <div class="footer-box">
-  <h6>Quick Links</h6>
+  <h6>Linqe</h6>
   <ul>
     <li style="border-bottom: 1px solid #333333"><a href="https://www.imdb.com">&raquo IMDB</a></li>
     <li style="border-bottom: 1px solid #333333"><a href="https://www.netflix.com">&raquo Netflix</a></li>
@@ -188,13 +203,30 @@ Cdo gje e filluam prej zeros per te arritur ketu ku jemi.</p>
   </div>
   <div class="footer-left">
   <div class="footer-box">
-    <h6>Latest Blog Posts</h6>
+    <h6>Më të fundit</h6>
+    <div class="latestb">
+    <h4 ><a  href="listat/lista5.html" >LISTA - 15 filmat me te shtrenjte</a></h4>
+
+    <p>Vetëm prodhimet me një buxhet neto që tejkalon një vlerë nominale prej 200 milion
+      dollarë në dollarë amerikanë janë listuar këtu. Për shkak të efekteve
+      të inflacionit, të gjithë nga filmat në tabelë janë...
+      <a style="float: right" href="listat/lista5.html" >Read More &raquo</a>
+      <br>
+      <br>
+      <br>
+        <h4 ><a  href="reviews/review6.html" >REVIEW - A Quiet Place (2018)</a></h4>
+        <p>Është bërë shumë bujë për debutimin regjisorial të Bradley Cooper.
+          Por, nëse do të debutosh për mrekulli në rolin e regjisorit, shikoni
+          John Krasinskin. Xhim Halpert e bën atë që nuk do e prisnim – një
+          vepër mjeshtërore me prekjen e tij në....
+          <a style="float: right" href="reviews/review6.html" >Read More &raquo</a>
+        </div>
     </div>
     </div>
     </div>
     <div class="footer-left">
     <div class="footer-box">
-      <h6 id="kontakti">Contact Us</h6>
+      <h6 id="kontakti">Na Kontaktoni</h6>
       <form id="contact-form" method="post" action="" >
         <input type="text" id="emri" name="emri" placeholder="Emri" class="required">
         <input type="text" id="email" name="email" placeholder="Email" class="required">
