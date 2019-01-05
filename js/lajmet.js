@@ -52,7 +52,7 @@ function back()
     document.getElementById("myad").style.background = " url('https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/images/b3.png'), url('https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/images/b4.jpg')";
     document.getElementById("myad").style.color = "black";
   }
-  else if(day_night>18 && day_night<24)
+  else if(day_night>18 && day_night<=23)
   {
     document.write("Po eksploron faqen tone? Sonte gjume s'do kete per ty.");
     document.getElementById("myad").style.background = " url('https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/images/b2.png'), url('https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/images/b1.png')";
