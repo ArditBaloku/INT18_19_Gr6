@@ -340,6 +340,29 @@ sessionStorage.setItem("session_counter", sessionVisits)
 document.getElementById('counter').innerHTML = "Ju keni vizituar faqen tone " + visits + " here (" + sessionVisits + " here ne kete sesion). Ju falenderojme perzemersisht!";
 </script>
 
+<p style="text-align: center;">Ju jeni ne faqen tone qe <output id="result"></output> sekonda</p>
+<script>
+var w;
+
+window.onload = function() {
+  if(typeof(Worker) !== "undefined") {
+    if(typeof(w) == "undefined") {
+      w = new Worker("../js/timeCounter.js");
+    }
+    w.onmessage = function(event) {
+      document.getElementById("result").innerHTML = event.data;
+    };
+  } else {
+    document.getElementById("result").innerHTML = "Sorry, your browser does not support Web Workers...";
+  }
+}
+
+function stopWorker() {
+  w.terminate();
+  w = undefined;
+}
+</script>
+
 </body>
 <footer>
 <div class="footer-main">
