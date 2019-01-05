@@ -40,19 +40,19 @@ function back()
     document.getElementById("myad").style.background = " url('https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/images/b2.png'), url('https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/images/b1.png')";
     document.getElementById("myad").style.color = "white";
   }
-  if(day_night>8 && day_night<12)
+  else if(day_night>8 && day_night<12)
   {
     document.write("Nisni diten me lajmet me te reja te kinematografise qe vijne posaqerisht per ju.");
     document.getElementById("myad").style.background = " url('https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/images/b3.png'), url('https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/images/b4.jpg')";
     document.getElementById("myad").style.color = "black";
   }
-  if(day_night>12 && day_night<18)
+  else if(day_night>12 && day_night<18)
   {
     document.write("Te lodhur nga punet e dite? Take a break and leave the ache. Lajmet e fundit per ju.");
     document.getElementById("myad").style.background = " url('https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/images/b3.png'), url('https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/images/b4.jpg')";
     document.getElementById("myad").style.color = "black";
   }
-  if(day_night>18 && day_night<24)
+  else if(day_night>18 && day_night<24)
   {
     document.write("Po eksploron faqen tone? Sonte gjume s'do kete per ty.");
     document.getElementById("myad").style.background = " url('https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/images/b2.png'), url('https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/images/b1.png')";
