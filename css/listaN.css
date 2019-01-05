@@ -339,6 +339,7 @@ a img{
 }
 .lista-e-filmave div{
   text-align: center;
+  display: inline-blocks;
 }
 .folder-lista figcaption{
   background-color: #fff;
