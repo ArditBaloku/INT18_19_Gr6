@@ -73,7 +73,9 @@ nav a:hover::after {
 
 .icons {
   float: right;
-  padding-right: 15%;
+  padding-right: 2%;
+  height: 50px;
+  width: 400px;
 }
 
 .fa {
