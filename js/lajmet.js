@@ -34,7 +34,7 @@ function showPage(n)
 function back()
 {
   var day_night = new Date().getHours();
-  if (day_night>0 && day_night<8)
+  if (day_night>=0 && day_night<8)
   {
     document.write("Pse jeni zgjuar ne kete ore?! Mos ndoshta vuani nga pagjumesia? Shiko nje film dhe fli rehat.");
     document.getElementById("myad").style.background = " url('https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/images/b2.png'), url('https://raw.githack.com/ArditBaloku/INT18_19_Gr6/master/images/b1.png')";
