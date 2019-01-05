@@ -494,6 +494,8 @@ a img{
   border: 2px ;
   border-radius:10px;
   color:white;
+  resize: vertical;
+  overflow: auto;
 }
 .footer-box form input::placeholder{
   color:#8D8D8D;
