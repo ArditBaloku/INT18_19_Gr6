@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html>
+<html manifest="backup.appcache">
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HomePage</title>
@@ -14,6 +14,12 @@
     jQuery(document).ready(function(){
     jQuery.goup();
     });
+
+    var appCache = window.applicationCache;
+    appCache.update();
+    if(appCache.status == window.applicationCache.UPDATEREADY) {
+      appCache.swapCache();
+    }
   </script>
    <style>
 .latestb h4{ color:white;
