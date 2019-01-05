@@ -445,6 +445,7 @@ a img{
 }
 #base_div
 {
+  float:none;
   margin-left: 8%;
   margin-right: 8%;
   margin-top: 5px;
